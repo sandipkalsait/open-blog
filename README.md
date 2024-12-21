@@ -43,7 +43,7 @@ Before running the project, ensure you have the following installed:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/open-blog.git
+   git clone https://github.com/sandipkalsait/open-blog.git
    cd open-blog
    ```
 
@@ -69,7 +69,7 @@ Before running the project, ensure you have the following installed:
 
 6. Start the server:
    ```bash
-   node server.js
+   node index.js
    ```
 
 ---
@@ -120,6 +120,23 @@ Before running the project, ensure you have the following installed:
 - **Additional Features:**
   - Enable editing and deletion of posts.
   - Add categories and tags for better organization.
+
+---
+
+## Development Scripts
+
+Use the following npm scripts for streamlined development:
+
+```json
+"scripts": {
+    "start": "node index.js",
+    "compile": "node compile.js",
+    "deploy": "node deploy.js",
+    "ganache": "ganache-cli",
+    "dev": "npm run ganache & npm run start",
+    "build": "npm run compile"
+}
+```
 
 ---
 
