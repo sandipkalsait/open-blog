@@ -1,0 +1,28 @@
+{
+  "name": "open-blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "compile": "node compile.js",
+    "deploy": "node deploy.js",
+    "ganache": "ganache-cli",
+    "dev": "npm run ganache & npm run start",
+    "build": "npm run compile"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "ethers": "^6.13.4",
+    "express": "^4.21.2",
+    "ganache-cli": "^6.12.2",
+    "ipfs-http-client": "^60.0.1",
+    "solc": "^0.8.28",
+    "web3": "^4.16.0"
+  },
+  "description": ""
+}
